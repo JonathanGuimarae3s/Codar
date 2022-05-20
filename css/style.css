@@ -1,100 +1,103 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 
-*{
-
-    padding: 0;
-    margin: 0%;
-    box-sizing: border-box;
-    font-family: roboto;
-    list-style: none;
+* {
+	padding: 0;
+	margin: 0%;
+	box-sizing: border-box;
+	font-family: roboto;
+	list-style: none;
 }
-:root{
-    --color:#D6000D;
+:root {
+	--color: #d6000d;
 }
-body{
-    max-width: 100%;
+body {
+	max-width: 100%;
 }
 
-
-header{
- 
- 
- 
-    text-align: center;
-
+header {
+	text-align: center;
 }
-#logo{
-    padding: 1.5em;
+#logo {
+	padding: 1.5em;
 
-    font-size: xx-large;
-   
-   
-
-}h1{
-    color: var(--color);
-     font-style: italic;
+	font-size: xx-large;
 }
-h1 > span{
-    color: black;
+h1 {
+	color: var(--color);
+	font-style: italic;
 }
-ul{
-display: flex;
-
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-
+h1 > span {
+	color: black;
 }
-li{
+ul {
+	display: flex;
 
-    width: 30%;
-    color: rgba(0, 0, 0, 0.803);
-    font-size: 1.1em;
-    
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: nowrap;
+	flex-direction: row;
 }
-li>p{transition: all ease-in 500;}
-li>p:hover{
-    color: var(--color);
+li {
+	width: 100px;
+	color: rgba(0, 0, 0, 0.803);
+	font-size: 1.1em;
+}
+li > p {
+	transition: all ease-in 500;
+}
+li > p:hover {
+	color: var(--color);
 }
 /* principal */
-main{
-    margin-top: 5px;
+main {
+	margin-top: 5px;
 }
-#back-budge{
-    text-align: center;
+/* section 2 */
+.back {
+	text-align: center;
 
-    margin-top: 15px; ;
+	margin-top: 40px;
 }
-#video-call{
-    padding: 20px;
-    max-width: 80vw;
+/* imgs */
+.imgs {
+	padding: 20px;
+	max-width: 80vw;
 }
-/*  */
-h2>p{
-    font-size: 16px;
-    color: black;
-}h2{font-size: 40px;
-    color: var(--color);
+/* titulo "Alavanque..." */
+h2 > p {
+	font-size: 16px;
+	color: black;
 }
-#request-quote{
-    margin-top: 1.8em;
-    width: 70%;
-    background-color: var(--color);
-    color: white;
-    border-radius: 9px;
-    padding:10px 15px;
-    border: none;
-    box-shadow:5px 5px 7px  rgba(0, 0, 0, 0.532);
-    
+h2 {
+	font-size: 40px;
+	color: var(--color);
+}
+/* button */
+#request-quote {
+	margin-top: 1.8em;
+	width: 70%;
+	background-color: var(--color);
+	color: white;
+	border-radius: 9px;
+	padding: 10px 15px;
+	border: none;
+	box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.532);
+}
+/* section 2 */
+#service{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+#service >li{
+    width: 100%;
+    margin-top: 0.7em;
 }
 
-
-
-
-
-
-
-
+#service >li::before{
+content: url(img/icon/checked.png);
+margin-right: 5px;
+}
 
