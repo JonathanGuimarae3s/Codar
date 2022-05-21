@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 	font-family: roboto;
 	list-style: none;
-	font-size: 18px;
+	font-size: 20px;
 }
 :root {
 	--color: #d6000d;
@@ -117,25 +117,35 @@ input[type="text"] {
 	margin-bottom: 15px;
 }
 /* comments */
+#organization-comments {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
 .comments {
 	width: 95%;
-	height: 165px;
-	margin: auto auto 20px auto;
+	height: max-content;
+
 	background-color: #dcdcdc;
 	display: flex;
 	padding: 10px;
 	border-radius: 15px;
 }
 .perfil-pictures {
-	width: 80px;
-	height: 80px;
+	width: 100px;
+
 	border-radius: 100%;
 
-	background-image: url(img/pexels-diva-plavalaguna-6937949.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
+	margin-right: 20px;
+}
 
-	margin: 10px 10px 0px 0px;
+picture > img {
+	width: 100%;
+	border-radius: 100%;
 }
 
 .opnion {
@@ -145,5 +155,19 @@ input[type="text"] {
 }
 h2 {
 	font-size: 28px;
-	margin-bottom: 5px;
 }
+/* footer */
+
+footer {
+	margin-top: 30px;
+	background: black;
+text-align: center;
+	color: white;
+	padding: 20px;
+}
+#h1-footer{
+	font-style: italic;
+	color: white;
+	
+}
+
