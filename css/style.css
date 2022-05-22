@@ -160,14 +160,26 @@ h2 {
 
 footer {
 	margin-top: 30px;
-	background: black;
-text-align: center;
+	background: rgb(163, 65, 65);
+
 	color: white;
 	padding: 20px;
 }
-#h1-footer{
+
+#details {
+	display: flex;
+	flex-direction: column;
+	width: 30px;
+	gap: 10px
+	;
+	width: 70%;
+}
+#header-footer{
+	margin: auto;
+width: fit-content;
+}
+#h1-footer {
+	text-align: center;
 	font-style: italic;
 	color: white;
-	
 }
-
