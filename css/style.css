@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 	font-family: roboto;
 	list-style: none;
-	font-size: 20px;
+	text-decoration: none;
 }
 :root {
 	--color: #d6000d;
@@ -36,7 +36,7 @@ ul {
 	display: flex;
 
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	align-content: center;
 	flex-wrap: nowrap;
 	flex-direction: row;
@@ -135,6 +135,7 @@ input[type="text"] {
 	padding: 10px;
 	border-radius: 15px;
 }
+/* foto dos usuarios */
 .perfil-pictures {
 	width: 100px;
 
@@ -147,39 +148,85 @@ picture > img {
 	width: 100%;
 	border-radius: 100%;
 }
-
+/* opniao */
 .opnion {
 	display: inline-block;
 	text-align: justify;
 	width: 300px;
 }
-h2 {
+.opnion-title {
 	font-size: 28px;
 }
 /* footer */
 
 footer {
 	margin-top: 30px;
-	background: rgb(163, 65, 65);
+	background: black;
 
 	color: white;
-	padding: 20px;
 }
 
-#details {
-	display: flex;
-	flex-direction: column;
-	width: 30px;
-	gap: 10px
-	;
-	width: 70%;
-}
-#header-footer{
+#header-footer {
 	margin: auto;
-width: fit-content;
+	width: fit-content;
 }
+#header-footer >p{
+	color: #9d9c9c;
+}
+/* titulo do footer */
 #h1-footer {
 	text-align: center;
 	font-style: italic;
 	color: white;
+}
+
+/* sobre e contatos */
+#details {
+	display: flex;
+	flex-direction: column;
+	margin-left: 25px;
+	gap: 10px;
+	margin-top: 20px;
+	width: 70%;
+}
+.mb {
+	margin-bottom: 6px;
+}
+#about>p{
+	color: #9d9c9c;
+}
+address{
+	color: #9d9c9c;
+}
+/* contatos */
+#contacts {
+	display: flex;
+	flex-direction: column;
+}#contacts > span{
+	color: #9d9c9c;
+}
+i {
+	margin-right: 5px;
+}
+span > a {
+	color: #9d9c9c;
+	text-decoration: underline;
+}
+/* redes sociais */
+#icons {
+	font-size: x-large;
+	margin-top: 5px;
+	color: #d6000d;
+}
+.mr {
+	margin-right: 20px;
+}
+
+/* feito por */
+#by {
+	text-align: center;
+	margin-top: 15px;
+}
+#by > a {
+	color: #d6000d;
 }
