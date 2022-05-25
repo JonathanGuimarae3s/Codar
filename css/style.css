@@ -11,10 +11,7 @@
 :root {
 	--color: #d6000d;
 }
-body {
-	max-width: 100%;
-	height: 1200px;
-}
+
 
 header {
 	text-align: center;
@@ -52,8 +49,12 @@ li > p {
 li > p:hover {
 	color: var(--color);
 }
+li >button {
+	display: none;
+}
 /* principal */
 main {
+	
 	margin-top: 5px;
 }
 /* section 2 */
@@ -95,6 +96,7 @@ h2 > p {
 	align-items: center;
 	flex-direction: column;
 	width: 100%;
+	text-align: justify;
 }
 #service > li {
 	width: 100%;
@@ -103,7 +105,7 @@ h2 > p {
 
 #service > li::before {
 	content: url(img/icon/checked.png);
-	margin-right: 5px;
+	margin-right: 15px;
 }
 
 #little-form {
