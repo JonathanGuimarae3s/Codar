@@ -10,11 +10,21 @@
 }
 :root {
 	--color: #d6000d;
+	--transittion:all 500ms 
+}
+.animation-btns:hover{background-color: white
+	;
+	border: 1px  solid white
+	var(--color);
+cursor: pointer;
+color:var(--color);
+
 }
 
 
 header {
 	text-align: center;
+	width: 100%;
 }
 #logo {
 	padding: 1.5em;
@@ -28,6 +38,11 @@ h1 {
 }
 h1 > span {
 	color: black;
+}
+nav{
+	width: 100%
+	;
+	display: flex;
 }
 ul {
 	display: flex;
@@ -49,8 +64,9 @@ li > p {
 li > p:hover {
 	color: var(--color);
 }
-li >button {
+nav > button {
 	display: none;
+	
 }
 /* principal */
 main {
@@ -80,6 +96,7 @@ h2 > p {
 /* buttons */
 .request-quote {
 	margin-top: 1.8em;
+
 }
 .buttons {
 	width: 70%;
@@ -89,8 +106,13 @@ h2 > p {
 	padding: 10px 15px;
 	border: none;
 	box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.532);
+	transition: var(--transittion);
 }
 /* section 2 */
+#service-list{
+	margin: auto;
+width: 215px;
+}
 #service {
 	display: flex;
 	align-items: center;
@@ -100,7 +122,7 @@ h2 > p {
 }
 #service > li {
 	width: 100%;
-	margin-top: 0.7em;
+	margin-top:2em;
 }
 
 #service > li::before {
