@@ -10,17 +10,18 @@
 }
 :root {
 	--color: #d6000d;
-	--transittion:all 500ms 
+	--transittion: all 500ms;
 }
-.animation-btns:hover{background-color: white
-	;
-	border: 1px  solid white
-	var(--color);
-cursor: pointer;
-color:var(--color);
-
+.animation-btns:hover {
+	background-color: white;
+	border: 1px solid white var(--color);
+	cursor: pointer;
+	color: var(--color);
 }
-
+html,
+body {
+	scroll-behavior: smooth;
+}
 
 header {
 	text-align: center;
@@ -39,10 +40,10 @@ h1 {
 h1 > span {
 	color: black;
 }
-nav{
-	width: 100%
-	;
+nav {
+	width: 100%;
 	display: flex;
+	justify-content: center;
 }
 ul {
 	display: flex;
@@ -58,19 +59,18 @@ li {
 	color: rgba(0, 0, 0, 0.803);
 	font-size: 1.1em;
 }
-li > p {
+li > a {
+	color: black;
 	transition: all ease-in 500;
 }
-li > p:hover {
+li > a:hover {
 	color: var(--color);
 }
 nav > button {
 	display: none;
-	
 }
 /* principal */
 main {
-	
 	margin-top: 5px;
 }
 /* section 2 */
@@ -96,7 +96,6 @@ h2 > p {
 /* buttons */
 .request-quote {
 	margin-top: 1.8em;
-
 }
 .buttons {
 	width: 70%;
@@ -109,9 +108,9 @@ h2 > p {
 	transition: var(--transittion);
 }
 /* section 2 */
-#service-list{
+#service-list {
 	margin: auto;
-width: 215px;
+	width: 215px;
 }
 #service {
 	display: flex;
@@ -122,7 +121,7 @@ width: 215px;
 }
 #service > li {
 	width: 100%;
-	margin-top:2em;
+	margin-top: 2em;
 }
 
 #service > li::before {
@@ -133,12 +132,18 @@ width: 215px;
 #little-form {
 	margin-top: 10px;
 }
-input[type="text"] {
+input[type="number"] {
 	border-radius: 5px;
 	border: none;
 	background-color: #dcdcdc;
 	padding: 10px 15px;
 	margin-bottom: 15px;
+	
+	
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
 }
 /* comments */
 #organization-comments {
@@ -191,42 +196,43 @@ footer {
 }
 
 #header-footer {
-	margin: auto;
+	margin: 0 auto;
 	width: fit-content;
 }
-#header-footer >p{
+#header-footer > p {
 	color: #9d9c9c;
 }
 /* titulo do footer */
 #h1-footer {
+	padding-top: 10px;
+
 	text-align: center;
 	font-style: italic;
 	color: white;
 }
 
 /* sobre e contatos */
-#details {
-	display: flex;
-	flex-direction: column;
-	margin-left: 25px;
-	gap: 10px;
-	margin-top: 20px;
-	width: 70%;
-}
+
 .mb {
 	margin-bottom: 6px;
 }
-#about>p{
+#social-medias,#about,#contacts{
+	margin-left:15px ;
+	margin-top: 20px;
+}
+#about > p {
 	color: #9d9c9c;
 }
-address{
+address {
 	color: #9d9c9c;
 }
 /* contatos */
 #contacts {
 	display: flex;
 	flex-direction: column;
-}#contacts > span{
+	gap: 10px;
+}
+#contacts > span {
 	color: #9d9c9c;
 }
 i {
@@ -242,6 +248,12 @@ span > a {
 	margin-top: 5px;
 	color: #d6000d;
 }
+#icons > i {
+	transition: var(--transittion);
+}
+#icons > i:hover {
+	color: white;
+}
 .mr {
 	margin-right: 20px;
 }
@@ -250,7 +262,13 @@ span > a {
 #by {
 	text-align: center;
 	margin-top: 15px;
+	padding: 10px 0;
 }
 #by > a {
 	color: #d6000d;
+	transition: var(--transittion);
+}
+
+#by > a:hover {
+	color: white;
 }
