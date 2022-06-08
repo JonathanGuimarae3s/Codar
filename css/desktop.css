@@ -2,7 +2,8 @@
 	--color: #d6000d;
 	--transittion: all 500ms ease;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 770px) {
+	.imgs{width: 400px;}
 	.back {
 		margin-bottom: 6em;
 	}
@@ -10,7 +11,7 @@
 	header {
 		text-align: center;
 		margin: 10px auto 0 auto;
-		width: 85%;
+		width: 70%;
 		display: flex;
 		align-content: center;
 		justify-content: space-around;
@@ -21,6 +22,9 @@
 		padding: 0;
 		font-size: 25px;
 		margin-right: 50%;
+	}
+	li{
+		width: 100px;
 	}
 	nav > button {
 		display: inline-block;
@@ -61,6 +65,7 @@
 
 	.buttons {
 		font-size: 20px;
+		width: 70%;
 	}
 	/* services */
 	#services {
@@ -83,8 +88,7 @@
 	#back-questions {
 		text-align: initial;
 		width: 498px;
-		margin-left: 370px;
-		margin-right: auto;
+	margin: 20px auto;
 	}
 
 	#little-form {
