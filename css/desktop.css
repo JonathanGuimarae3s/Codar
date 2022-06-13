@@ -2,7 +2,11 @@
 	--color: #d6000d;
 	--transittion: all 500ms ease;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 770px) {
+	
+	.imgs {
+		width: 400px;
+	}
 	.back {
 		margin-bottom: 6em;
 	}
@@ -10,7 +14,7 @@
 	header {
 		text-align: center;
 		margin: 10px auto 0 auto;
-		width: 85%;
+
 		display: flex;
 		align-content: center;
 		justify-content: space-around;
@@ -20,8 +24,14 @@
 	#logo {
 		padding: 0;
 		font-size: 25px;
-		margin-right: 50%;
 	}
+	nav {
+		width: 50%;
+	}
+	li {
+		width: 100px;
+	}
+
 	nav > button {
 		display: inline-block;
 		padding: 5px 10px;
@@ -31,6 +41,12 @@
 		border: none;
 		border-radius: 5px;
 		transition: var(--transittion);
+	}
+	/* geral */
+	#back-budge,
+	#services,
+	#footer {
+		max-width: 1080px;
 	}
 	/* section 1 */
 	#back-budge {
@@ -61,21 +77,21 @@
 
 	.buttons {
 		font-size: 20px;
+		width: 70%;
 	}
 	/* services */
 	#services {
 		display: flex;
 		flex-direction: row-reverse;
 		align-items: center;
-		justify-content: space-around;
+		justify-content: flex-end;
 		align-content: center;
 		flex-wrap: nowrap;
-		width: 70%;
+
+		gap: 35px;
 		margin: 0 auto;
 	}
-	#services > article {
-		width: 35%;
-	}
+
 	#service-list {
 		margin: 0 auto;
 		width: 400px;
@@ -83,8 +99,7 @@
 	#back-questions {
 		text-align: initial;
 		width: 498px;
-		margin-left: 370px;
-		margin-right: auto;
+		margin: 20px auto;
 	}
 
 	#little-form {
@@ -114,7 +129,6 @@
 	}
 	/* footer contents */
 	#footer {
-		width: 83em;
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-evenly;
@@ -123,7 +137,6 @@
 		margin: auto;
 		gap: 5em;
 		padding: 3em;
-		
 	}
 	/* cabeçalho do footer */
 	#header-footer {
@@ -146,7 +159,7 @@
 		width: 70%;
 	}
 	/* sobre */
-	#about{
+	#about {
 		width: 250px;
 	}
 	/* contatos */
@@ -156,6 +169,7 @@
 		gap: 10px;
 	}
 	#icons {
+		display: flex;
 		font-size: 25pt;
 	}
 }

@@ -18,14 +18,19 @@
 	cursor: pointer;
 	color: var(--color);
 }
+
 html,
 body {
 	scroll-behavior: smooth;
 }
+main,header{
+	max-width: 1080px;
+	margin: auto;
+}
 
 header {
 	text-align: center;
-	width: 100%;
+	
 }
 #logo {
 	padding: 1.5em;
