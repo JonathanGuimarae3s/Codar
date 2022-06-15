@@ -98,7 +98,7 @@
 	}
 	#back-questions {
 		text-align: initial;
-		width: 498px;
+		max-width: 840px;
 		margin: 20px auto;
 	}
 
