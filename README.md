@@ -7,6 +7,10 @@
 <p align="center">
 <a href="https://jonathanguimarae3s.github.io/Codar/" target="_blank">👉 Acesse a página aqui 👈</a>
 </p>
+<p>
+  Repositório do desafio:
+<a href="https://github.com/Lorenalgm/codar" target="_blank">Lorena</a>
+</p>
 
 
 
@@ -14,6 +18,10 @@
 ## 💻 Projeto
 <h2>Objetivo</h2>
 Objetivo desse site foi praticar minhas habilidades em HTML e CSS. Esse site foi um desafio do site <a href="https://www.devchallenge.com.br/challenges/5ed47992adee277fae224a0b/details" target="_blank" >Dev Challengers.</a> Nele apliquei o conceito mobile first pela primeira vez e fiz uso da lib Font Awesome para buscar os icones.
+
+
+
+
 
 ### Design
 
