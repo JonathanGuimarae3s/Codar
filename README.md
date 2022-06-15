@@ -9,7 +9,7 @@
 
 ## 💻 Projeto
 <h2>Objetivo</h2>
-Objetivo desse site foi praticar minhas habilidades em HTML e CSS. <a href="https://www.devchallenge.com.br/challenges/5ed47992adee277fae224a0b/details" target="_blank" >Esse site foi um desafio do Dev Challengers. </a>
+Objetivo desse site foi praticar minhas habilidades em HTML e CSS. <a href="https://www.devchallenge.com.br/challenges/5ed47992adee277fae224a0b/details" target="_blank" >Esse site foi um desafio do Dev Challengers. Nele apliquei o conceito mobile first pela primeira vez.</a>
 
 ## Design
 
@@ -20,6 +20,7 @@ Objetivo desse site foi praticar minhas habilidades em HTML e CSS. <a href="http
 </div>
 <br>
 <br>
+## Resultado
 <div align="center">
 <img width="500" src="https://github.com/JonathanGuimarae3s/Codar/blob/main/css/img/gifs/desktop.gif">
   <img width="500"  src="https://github.com/JonathanGuimarae3s/Codar/blob/main/css/img/gifs/mobile.gif">
