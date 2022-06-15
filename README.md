@@ -1,17 +1,21 @@
-# Codar
+
+<div align="center">
+<img width="200" src="https://github.com/JonathanGuimarae3s/Codar/blob/main/css/img/video_call.png">
+
+</div>
 <h1 align="center"> Codar | Criando Websites Incríveis</h1>
 <p align="center">
 <a href="https://jonathanguimarae3s.github.io/Codar/" target="_blank">👉 Acesse a página aqui 👈</a>
 </p>
-<hr>
+
 
 
 
 ## 💻 Projeto
 <h2>Objetivo</h2>
-Objetivo desse site foi praticar minhas habilidades em HTML e CSS. <a href="https://www.devchallenge.com.br/challenges/5ed47992adee277fae224a0b/details" target="_blank" >Esse site foi um desafio do Dev Challengers. Nele apliquei o conceito mobile first pela primeira vez.</a>
+Objetivo desse site foi praticar minhas habilidades em HTML e CSS. Esse site foi um desafio do site <a href="https://www.devchallenge.com.br/challenges/5ed47992adee277fae224a0b/details" target="_blank" >Dev Challengers.</a> Nele apliquei o conceito mobile first pela primeira vez e fiz uso da lib Font Awesome para buscar os icones.
 
-## Design
+### Design
 
 
 <div align="center">
@@ -20,7 +24,10 @@ Objetivo desse site foi praticar minhas habilidades em HTML e CSS. <a href="http
 </div>
 <br>
 <br>
-## Resultado
+
+### Resultado
+
+
 <div align="center">
 <img width="500" src="https://github.com/JonathanGuimarae3s/Codar/blob/main/css/img/gifs/desktop.gif">
   <img width="500"  src="https://github.com/JonathanGuimarae3s/Codar/blob/main/css/img/gifs/mobile.gif">
