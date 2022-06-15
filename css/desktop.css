@@ -2,7 +2,7 @@
 	--color: #d6000d;
 	--transittion: all 500ms ease;
 }
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 1070px) {
 	
 	.imgs {
 		width: 400px;
@@ -93,12 +93,12 @@
 	}
 
 	#service-list {
-		margin: 0 auto;
+		margin: 0 103px;
 		width: 400px;
 	}
 	#back-questions {
 		text-align: initial;
-		width: 498px;
+		max-width: 869px;
 		margin: 20px auto;
 	}
 
@@ -128,6 +128,10 @@
 		width: 100%;
 	}
 	/* footer contents */
+	#social-medias,#about,#contacts{
+	width: 200px;
+	margin-top:13px;
+}
 	#footer {
 		display: flex;
 		align-items: flex-start;
@@ -136,20 +140,23 @@
 		flex-wrap: nowrap;
 		margin: auto;
 		gap: 5em;
-		padding: 3em;
+		padding: 1em;
 	}
 	/* cabeçalho do footer */
 	#header-footer {
 		margin: 0;
-		width: max-content;
+		width: 200px;
 	}
 	/* titulo do footer */
 	#h1-footer {
 		padding-top: 0;
-
-		text-align: center;
+width: 187px;
+		text-align: initial;
 		font-style: italic;
 		color: white;
+	}
+	#h1-footer>p{
+		width: 200px;
 	}
 	#details {
 		flex-direction: row;

@@ -1,22 +1,45 @@
-# Codar
-<h1 align="center"> Codar|Criando Websites Incríveis</h1>
+
+<div align="center">
+<img width="200" src="https://github.com/JonathanGuimarae3s/Codar/blob/main/css/img/video_call.png">
+
+</div>
+<h1 align="center"> Codar | Criando Websites Incríveis</h1>
 <p align="center">
 <a href="https://jonathanguimarae3s.github.io/Codar/" target="_blank">👉 Acesse a página aqui 👈</a>
 </p>
-<hr>
-<div align="center">
-<img width="500px" src="https://github.com/JonathanGuimarae3s/portifolioo/blob/main/css/imgs/gifs/1.gif">
-<img width="500px" src="https://github.com/JonathanGuimarae3s/portifolioo/blob/main/css/imgs/gifs/2.gif">
-</div>
+<p>
+  Repositório do desafio:
+<a href="https://github.com/Lorenalgm/codar" target="_blank">Lorena</a>
+</p>
+
+
 
 
 ## 💻 Projeto
 <h2>Objetivo</h2>
-Objetivo desse site foi praticar minhas habilidades em HTML e CSS. <a href="https://www.devchallenge.com.br/challenges/5ed47992adee277fae224a0b/details" target="_blank" >Esse site foi um desafio do Dev Challengers. </a>
+Objetivo desse site foi praticar minhas habilidades em HTML e CSS. Esse site foi um desafio do site <a href="https://www.devchallenge.com.br/challenges/5ed47992adee277fae224a0b/details" target="_blank" >Dev Challengers.</a> Nele apliquei o conceito mobile first pela primeira vez e fiz uso da lib Font Awesome para buscar os icones.
 
-## Design
 
-### Desktop
+
+
+
+### Design
+
+
+<div align="center">
+<img height="500" src="https://github.com/JonathanGuimarae3s/Codar/blob/main/css/img/design/desktop.png">
+<img height="500"  src="https://github.com/JonathanGuimarae3s/Codar/blob/main/css/img/design/mobile.png">
+</div>
+<br>
+<br>
+
+### Resultado
+
+
+<div align="center">
+<img width="500" src="https://github.com/JonathanGuimarae3s/Codar/blob/main/css/img/gifs/desktop.gif">
+  <img width="500"  src="https://github.com/JonathanGuimarae3s/Codar/blob/main/css/img/gifs/mobile.gif">
+</div>
 
 ## Linguagens e conceitos utilizados 
 
@@ -33,12 +56,16 @@ Objetivo desse site foi praticar minhas habilidades em HTML e CSS. <a href="http
 <div>
 <img align="center" alt="CSS"  width="30" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" /> <b> CSS 3</b>
 </div>
+
+<br>
+<p>• Mobile first</p>
 <p>• Uso do display flex</p>
 <p>• Uso de variáveis</p>
 <p>• Reutilização de estilos</p>
 <p>• Organização por seções</p>
 <p>• Nomenclatura clara de classes e IDs</p>
 <p>• Media Queries para adicionar responsividade</p>
+
 <br>
 <div>
   <div align = 'center'>
