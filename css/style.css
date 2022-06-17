@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 
-*{
-
-    padding: 0;
-    margin: 0%;
-    box-sizing: border-box;
-    font-family: roboto;
-    list-style: none;
+* {
+	padding: 0;
+	margin: 0%;
+	box-sizing: border-box;
+	font-family: roboto;
+	list-style: none;
+	text-decoration: none;
 }
 :root {
 	--color: #d6000d;
@@ -23,14 +23,15 @@ html,
 body {
 	scroll-behavior: smooth;
 }
-main,header{
+main,
+header {
 	max-width: 1080px;
 	margin: auto;
 }
 
 header {
 	text-align: center;
-	
+	width: 100%;
 }
 #logo {
 	padding: 1.5em;
@@ -53,17 +54,16 @@ nav {
 ul {
 	display: flex;
 
+	align-items: center;
+	justify-content: space-around;
+	align-content: center;
+	flex-wrap: nowrap;
+	flex-direction: row;
 }
-#logo{
-    padding: 1.5em;
-
-    font-size: xx-large;
-   
-   
-
-}h1{
-    color: var(--color);
-     font-style: italic;
+li {
+	width: 100px;
+	color: rgba(0, 0, 0, 0.803);
+	font-size: 1.1em;
 }
 li > a {
 	color: black;
@@ -76,24 +76,24 @@ nav > button {
 	display: none;
 }
 /* principal */
-main{
-    margin-top: 5px;
+main {
+	margin-top: 5px;
 }
-#back-budge{
-    text-align: center;
+/* section 2 */
+.back {
+	text-align: center;
 
-    margin-top: 15px; ;
+	margin-top: 40px;
 }
-#video-call{
-    padding: 20px;
-    max-width: 80vw;
+/* imgs */
+.imgs {
+	padding: 20px;
+	max-width: 80vw;
 }
-/*  */
-h2>p{
-    font-size: 16px;
-    color: black;
-}h2{font-size: 40px;
-    color: var(--color);
+/* titulo "Alavanque..." */
+h2 > p {
+	font-size: 16px;
+	color: black;
 }
 #primario {
 	font-size: 40px;
@@ -144,12 +144,9 @@ input[type="number"] {
 	background-color: #dcdcdc;
 	padding: 10px 15px;
 	margin-bottom: 15px;
-	
-	
 }
-input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;
-    
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
 }
 /* comments */
 #organization-comments {
@@ -163,13 +160,43 @@ input[type=number]::-webkit-inner-spin-button {
 }
 .comments {
 	width: 95%;
-	height: max-content;}
+	height: max-content;
 
+	background-color: #dcdcdc;
+	display: flex;
+	padding: 10px;
+	border-radius: 15px;
+}
+/* foto dos usuarios */
+.perfil-pictures {
+	width: 100px;
 
+	border-radius: 100%;
 
+	margin-right: 20px;
+}
 
+picture > img {
+	width: 100%;
+	border-radius: 100%;
+}
+/* opniao */
+.opnion {
+	display: inline-block;
+	text-align: justify;
+	width: 300px;
+}
+.opnion-title {
+	font-size: 28px;
+}
+/* footer */
 
+footer {
+	margin-top: 30px;
+	background: black;
 
+	color: white;
+}
 
 #header-footer {
 	margin: 0 auto;
@@ -192,8 +219,10 @@ input[type=number]::-webkit-inner-spin-button {
 .mb {
 	margin-bottom: 6px;
 }
-#social-medias,#about,#contacts{
-	margin-left:15px ;
+#social-medias,
+#about,
+#contacts {
+	margin-left: 15px;
 	margin-top: 20px;
 }
 #about > p {

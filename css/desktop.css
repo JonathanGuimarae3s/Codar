@@ -3,7 +3,6 @@
 	--transittion: all 500ms ease;
 }
 @media screen and (min-width: 1070px) {
-	
 	.imgs {
 		width: 400px;
 	}
@@ -87,7 +86,6 @@
 		justify-content: flex-end;
 		align-content: center;
 		flex-wrap: nowrap;
-
 		gap: 35px;
 		margin: 0 auto;
 	}
@@ -128,11 +126,14 @@
 		width: 100%;
 	}
 	/* footer contents */
-	#social-medias,#about,#contacts{
-	width: 200px;
-	margin-top:13px;
-}
+	#social-medias,
+	#about,
+	#contacts {
+		width: 200px;
+		margin-top: 13px;
+	}
 	#footer {
+		width: 83em;
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-evenly;
@@ -150,12 +151,12 @@
 	/* titulo do footer */
 	#h1-footer {
 		padding-top: 0;
-width: 187px;
+		width: 187px;
 		text-align: initial;
 		font-style: italic;
 		color: white;
 	}
-	#h1-footer>p{
+	#h1-footer > p {
 		width: 200px;
 	}
 	#details {
